@@ -1,1 +1,24 @@
 /* Stylesheet */
+body {
+	background-color: #ffead5;
+}
+
+/* Make logo in the middle */
+.navbar {
+    position: relative;
+}
+.navbar-brand {
+    position: absolute;
+    left: 50%;
+    margin-left: -50px !important;  /* 50% of your logo width */
+    display: block;
+    font-weight: bold;
+    font-size: 170%;
+}
+
+/* Header */
+header {
+	/*background-color: #d9e1eb;*/
+	background: rgb(217,225,235);
+	background: linear-gradient(90deg, rgba(217,225,235,1) 0%, rgba(255,255,255,1) 50%, rgba(217,225,235,1) 100%);
+}
