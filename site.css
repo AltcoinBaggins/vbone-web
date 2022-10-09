@@ -23,20 +23,13 @@ header {
 	background: linear-gradient(90deg, rgba(217,225,235,1) 0%, rgba(255,255,255,1) 50%, rgba(217,225,235,1) 100%);
 }
 
-img#vbone-logo {
-    
+.row {
+    margin: 10%;
 }
 
-img#whitepaper-logo {
-    
-}
-
-img#boner-logo {
-
-}
-
-img#fire-logo {
-
+img {
+    width: 100%;
+    vertical-align: middle;
 }
 
 p#deflationary-text{
