@@ -22,3 +22,51 @@ header {
 	background: rgb(217,225,235);
 	background: linear-gradient(90deg, rgba(217,225,235,1) 0%, rgba(255,255,255,1) 50%, rgba(217,225,235,1) 100%);
 }
+
+img#vbone-logo {
+    
+}
+
+img#whitepaper-logo {
+    
+}
+
+img#boner-logo {
+
+}
+
+img#fire-logo {
+
+}
+
+p#deflationary-text{
+    text-align: center;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 250%;
+    font-weight: bold;
+    display: block;
+}
+
+.meme-title {
+    text-align: center;
+    font-size: 200%;
+    font-weight: bold;
+    display: block;
+}
+
+.meme-subtitle {
+    text-align: center;
+    font-size: 170%;
+    font-weight: bold;
+    transform: rotateZ(-45deg);
+}
+
+.telegram-link {
+    text-align: center;
+    font-size: 170%;
+    font-weight: bold;
+    display: block;
+}
