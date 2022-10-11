@@ -68,3 +68,8 @@ p#deflationary-text{
     font-weight: bold;
     display: block;
 }
+
+.section-anchor {
+	margin-top: -55px;
+    position: absolute;
+}
