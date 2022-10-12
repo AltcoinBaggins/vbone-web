@@ -45,6 +45,8 @@ img {
 
 p#deflationary-text{
     text-align: center;
+    margin-top: 30vw;
+    background: #fff0e180;
 }
 
 .section-title {
@@ -102,4 +104,12 @@ p#deflationary-text{
 .text-md {
     font-size: 3vw;
     font-weight: bold;
+}
+
+.fire-box {
+    background: url("images/fire.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-height: 50vw;
 }
