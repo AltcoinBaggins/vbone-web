@@ -49,7 +49,7 @@ p#deflationary-text{
 
 .section-title {
     text-align: center;
-    font-size: 4vw;
+    font-size: 3.8vw;
     font-weight: bold;
     display: block;
     margin-bottom: 4vw;
@@ -97,4 +97,9 @@ p#deflationary-text{
 
 .meme-page img {
     border: 5px solid #7030a0;
+}
+
+.text-md {
+    font-size: 3vw;
+    font-weight: bold;
 }
