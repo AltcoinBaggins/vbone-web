@@ -79,3 +79,13 @@ p#deflationary-text{
 	margin-top: -55px;
     position: absolute;
 }
+
+.boner-text {
+    font-weight: bold;
+    font-size: 3.4vw;
+}
+
+.boner-text img {
+    display: inline-block;
+    width: 65%;
+}
