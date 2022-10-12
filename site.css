@@ -113,3 +113,34 @@ p#deflationary-text{
     background-repeat: no-repeat;
     min-height: 50vw;
 }
+
+.deflationary-page-table {
+    list-style: none;
+    background: #ff6600;
+    padding: 0.2vw 3vw 1.5vw 3vw;
+    border-radius: 2vw;
+    border: 2px solid black;
+}
+
+.deflationary-page-table a {
+    font-size: 63%;
+    text-decoration: none;
+    color: black;
+}
+
+.deflationary-page-table a:hover {
+    text-decoration: underline;
+}
+
+.deflationary-page-table a .y {
+    color: #ffff00;
+}
+
+.deflationary-page-table a .g {
+    color: #a9d18e;
+}
+
+.deflationary-page-table .move-up {
+    display: block;
+    margin-top: -1vw;
+}
