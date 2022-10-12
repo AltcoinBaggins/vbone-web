@@ -122,14 +122,18 @@ p#deflationary-text{
     border: 2px solid black;
 }
 
-.deflationary-page-table a {
-    font-size: 63%;
+section a {
     text-decoration: none;
     color: black;
 }
 
-.deflationary-page-table a:hover {
+section a:hover {
     text-decoration: underline;
+    color: black;
+}
+
+.deflationary-page-table a {
+    font-size: 63%;
 }
 
 .deflationary-page-table a .y {
@@ -143,4 +147,10 @@ p#deflationary-text{
 .deflationary-page-table .move-up {
     display: block;
     margin-top: -1vw;
+}
+
+.safe-page-table {
+    background: #dddddd;
+    border: 1px solid black;
+    padding: 2vw 2vw 2vw 5vw;
 }
