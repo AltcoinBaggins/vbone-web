@@ -171,3 +171,8 @@ ul.dashed > li:before {
     padding: 2vw 2vw 2vw 5vw;
     font-size: 90%;
 }
+
+.centered {
+    width: 100%;
+    text-align: center;
+}
