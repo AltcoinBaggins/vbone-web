@@ -132,6 +132,22 @@ section a:hover {
     color: black;
 }
 
+ul {
+  margin: 0;
+}
+ul.dashed {
+  list-style-type: none;
+}
+ul.dashed > li {
+  text-indent: -5px;
+}
+ul.dashed > li:before {
+  content: "-";
+  text-indent: -5px;
+  margin-left: -1.5vw;
+}
+
+
 .deflationary-page-table a {
     font-size: 63%;
 }
@@ -153,4 +169,5 @@ section a:hover {
     background: #dddddd;
     border: 1px solid black;
     padding: 2vw 2vw 2vw 5vw;
+    font-size: 90%;
 }
