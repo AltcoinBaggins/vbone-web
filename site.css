@@ -280,13 +280,13 @@ ul.dashed > li:before {
     display: none;
 }
 .hidden-sm {
-    display: initial;
+    display: inherit;
 }
 .visible-md {
     display: none;
 }
 .hidden-md {
-    display: initial;
+    display: inherit;
 }
 
 
@@ -295,7 +295,7 @@ ul.dashed > li:before {
         padding-top: 40px;
     }
     .visible-md {
-        display: initial;
+        display: inherit;
     }
     .hidden-md {
         display: none;
@@ -337,9 +337,12 @@ ul.dashed > li:before {
         font-size: 4vw;
     }
     .visible-sm {
-        display: initial;
+        display: inherit;
     }
     .hidden-sm {
         display: none;
+    }
+    .buy-page {
+        min-height: calc(100vh - 60px);
     }
 }
