@@ -176,3 +176,42 @@ ul.dashed > li:before {
     width: 100%;
     text-align: center;
 }
+
+.email-label {
+    float: right;
+    position: absolute;
+    display: inline-block;
+    font-size: 2.4vw;
+    font-weight: normal;
+    margin-left: 3.5vw;
+    margin-right: -3.5vw;
+}
+
+.email-label b {
+    font-size: 2.7vw;
+}
+
+.email-label a {
+    color: inherit;
+    font-weight: inherit;
+    text-decoration: inherit;
+}
+
+.social-btn {
+    padding: 1vw 2vw;
+    border: 1px solid black;
+    font-size: 2.8vw;
+    margin: 1vw;
+}
+
+.twitter-btn {
+    background: #92d050;
+}
+
+.telegram-btn {
+    background: #00b0f0;
+}
+
+.buy-page img {
+    border: 5px solid #6600ff;
+}
