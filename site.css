@@ -208,19 +208,24 @@ ul.dashed > li:before {
     text-decoration: none;
 }
 
-.twitter-btn {
-    background: #92d050;
-}
-
-.twitter-btn:hover {
-    background: #92d05088;
+.social-btn-sm {
+    margin: 0.5vw;
+    padding: 0.5vw 1vw;
 }
 
 .telegram-btn {
-    background: #00b0f0;
+    background: #92d050;
 }
 
 .telegram-btn:hover {
+    background: #92d05088;
+}
+
+.twitter-btn {
+    background: #00b0f0;
+}
+
+.twitter-btn:hover {
     background: #00b0f088;
 }
 
