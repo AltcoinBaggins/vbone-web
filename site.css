@@ -261,3 +261,25 @@ ul.dashed > li:before {
     height: 4vw;
     display: inline-block;
 }
+
+.meme-page img {
+    margin-bottom: 1vw;
+}
+
+@media (max-width: 991.99px) {  /* mobile menu shown */
+    .home-page {
+        padding-top: 40px;
+    }
+}
+
+@media (max-width: 767px) { /* -md- breakpoint */
+    .meme-page img {
+        margin-bottom: 5vw;
+    }
+    .meme-title {
+        font-size: 3.4vw;
+    }
+    .section-title {
+        font-size: 5vw;
+    }
+}
