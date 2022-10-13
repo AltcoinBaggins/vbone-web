@@ -300,6 +300,9 @@ ul.dashed > li:before {
     .hidden-md {
         display: none;
     }
+    .buy-page {
+        min-height: calc(100vh - 60px);
+    }
 }
 
 @media (max-width: 767px) { /* -md- breakpoint */
@@ -341,8 +344,5 @@ ul.dashed > li:before {
     }
     .hidden-sm {
         display: none;
-    }
-    .buy-page {
-        min-height: calc(100vh - 60px);
     }
 }
