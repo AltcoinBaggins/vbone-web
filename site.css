@@ -266,9 +266,29 @@ ul.dashed > li:before {
     margin-bottom: 1vw;
 }
 
+.visible-sm {
+    display: none;
+}
+.hidden-sm {
+    display: initial;
+}
+.visible-md {
+    display: none;
+}
+.hidden-md {
+    display: initial;
+}
+
+
 @media (max-width: 991.99px) {  /* mobile menu shown */
     .home-page {
         padding-top: 40px;
+    }
+    .visible-md {
+        display: initial;
+    }
+    .hidden-md {
+        display: none;
     }
 }
 
@@ -305,5 +325,11 @@ ul.dashed > li:before {
     }
     .email-label b {
         font-size: 4vw;
+    }
+    .visible-sm {
+        display: initial;
+    }
+    .hidden-sm {
+        display: none;
     }
 }
