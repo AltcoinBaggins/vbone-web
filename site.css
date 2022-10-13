@@ -59,8 +59,8 @@ p#deflationary-text{
 
 .meme-title {
     text-align: center;
-    font-size: 200%;
-    font-weight: bold;
+    /*font-size: 200%;*/
+    font-weight: normal;
     display: block;
 }
 
@@ -77,7 +77,6 @@ p#deflationary-text{
 
 .telegram-link {
     text-align: center;
-    font-size: 170%;
     font-weight: bold;
     display: block;
 }
