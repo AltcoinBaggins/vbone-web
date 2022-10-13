@@ -29,9 +29,19 @@ header.navbar {
 }
 
 @media (min-width: 992px) {
-    header.navbar .flex-row-reverse {
+    header.navbar .menu-right {
         width: 100%;
+        flex-direction: row-reverse!important;
     }
+}
+@media (max-width: 991.99px) {
+    header nav {
+        align-items: start!important;
+    }
+}
+
+section {
+    min-height: 50vh;
 }
 
 .row {
