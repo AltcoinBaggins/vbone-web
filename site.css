@@ -1,6 +1,13 @@
+@font-face {
+  font-family: "Ink Free";
+  src: url('fonts/inkfree.woff') format('woff'),
+       url('fonts/inkfree.ttf') format('truetype');
+}
+
 /* Stylesheet */
 body {
 	background-color: #ffead5;
+    font-family: "Ink Free", Calibri, Tahoma, sans-serif;
 }
 
 /* Make logo in the middle */
