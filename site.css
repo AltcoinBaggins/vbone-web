@@ -296,6 +296,14 @@ ul.dashed > li:before {
     display: inherit;
 }
 
+.moon-page section {
+    max-height: auto;
+}
+
+.moon-page .section-title {
+    margin-bottom: 1vw;
+}
+
 
 @media (max-width: 991.99px) {  /* mobile menu shown */
     .home-page {
@@ -352,5 +360,8 @@ ul.dashed > li:before {
     }
     .hidden-sm {
         display: none;
+    }
+    .moon-page .section-title {
+        margin-bottom: 2vw;
     }
 }
