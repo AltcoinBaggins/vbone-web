@@ -297,7 +297,7 @@ ul.dashed > li:before {
 }
 
 .moon-page section {
-    max-height: auto;
+    min-height: auto;
 }
 
 .moon-page .section-title {
