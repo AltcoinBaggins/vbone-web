@@ -327,10 +327,11 @@ ul.dashed > li:before {
         margin-bottom: 15vw;
         font-size: 3vw;
     }
+    /*
     .vbone-page img {
         width: 60%;
         margin-left: 20%;
-    }
+    }*/
     .text-md {
         font-size: 3.5vw;
     }
