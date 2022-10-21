@@ -55,6 +55,18 @@ section {
     margin: 10%;
 }
 
+@media only screen and (max-width: 912px) {
+    .binance-logo {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 912px) {
+    .binance-logo-phone {
+        display: flex;
+    }
+} 
+
 img {
     width: 100%;
     vertical-align: middle;
