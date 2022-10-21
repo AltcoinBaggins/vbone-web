@@ -67,6 +67,10 @@ section {
     }
 } 
 
+.binance-logo-phone {
+        display: hidden;
+}
+
 img {
     width: 100%;
     vertical-align: middle;
