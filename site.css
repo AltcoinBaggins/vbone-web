@@ -68,7 +68,7 @@ section {
 } 
 
 .binance-logo-phone {
-        display: hidden!important;
+        display: none;
 }
 
 img {
