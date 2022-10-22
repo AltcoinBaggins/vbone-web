@@ -63,7 +63,7 @@ section {
 
 @media only screen and (max-width: 912px) {
     .binance-logo-phone {
-        display: flex;
+        display: flex!important;
     }
 } 
 
